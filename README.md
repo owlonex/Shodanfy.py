@@ -13,7 +13,7 @@ e.g:
     python3 shodanfy.py 111.111.111.111 --getmoreinfo
     python3 shodanfy.py 111.111.111.111 --getbanner
     python3 shodanfy.py 111.111.111.111 --getports --getvuln
-# support pipeline the --stdin option is required for pipeline..
+# support pipeline, --stdin option is required..
 # echo "<ip>" or cat ips.txt | python3 shodanfy.py --stdin [OPTIONS]
 e.g:
     echo "111.111.111.111"|python3 shodanfy.py --stdin 
